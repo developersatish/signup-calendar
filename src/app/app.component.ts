@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'signup-calendar';
+  formData = {
+    name: '',
+    email: '',
+    phone: '',
+    password: '',
+    dob: ''
+  }
 }
